@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HostelHelper</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<header>
+    <div id="menu-bar" class="fas fa-bars"></div>
+    <a href="#" class="logo"><span>Hostel</span>Helper</a>
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#book">book</a>
+        <a href="#explore">Explore</a>
+        <a href="#services">Services</a>
+        <a href="#gallery">gallery</a>
+        <a href="#review">review</a>
+        <a href="#contact">contact</a>
+    </nav>
+    <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+    </div>
+    <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="search here...">
+        <label for="search-bar" class="fas fa-search"></label>
+    </form>
+</header> 
+
+<div class="login-form-container">
+    <i class="fas fa-times" id="form-close"></i>
+    <form action="">
+    <h3>login</h3>
+    <input type="email" class="box" placeholder="enter your email">
+    <input type="password" class="box" placeholder="enter your password">
+    <input type="submit" value="login now" class="btn">
+    <input type="checkbox" id="remember">
+    <label for="remember">remember me</label>
+    <p>forget password?<a href="#">click here</a></p>
+    <p>don't have an account?<a href="#">register now</a></p>
+    </form>
+</div>
+
+<section class="home" id="home">
+    <div class="content">
+        <h3>Welcome to the HostelHelper</h3>
+        <p>your ultimate guide to hostels</p>
+        <a href="#" class="btn">discover more</a>
+
+    </div>
+    <div class="controls">
+        <span class="vid-btn active" data-src="1.jpg"></span>
+        <span class="vid-btn" data-src="3.jpg"></span>
+        <span class="vid-btn" data-src="6.jpg"></span>
+        <span class="vid-btn" data-src="9.jpg"></span>
+        <span class="vid-btn" data-src="15.jpg"></span>
+
+    </div>
+    <div class="video-container">
+        <img src="1.jpg" id="video-slider" loop autoplay muted></img>
+    </div>
+
+
+</section>
+<section class="book" id="book">
+    <h1 class="heading">
+        <span>b</span>
+        <span>o</span>
+        <span>o</span>
+        <span>k</span>
+        <span class="space"></span>
+        <span>n</span>
+        <span>o</span>
+        <span>w</span>
+    </h1>
+    <div class="row">
+        <div class="image">
+            <img src="6548437.jpg" alt="">
+        </div>
+        <form action="">
+            <div class="inputBox">
+                <h3>Hostel Name</h3>
+                <input type="text"  placeholder="Hostel Name">
+            </div>
+            <div class="inputBox">
+                <h3>how many</h3>
+                <input type="number" placeholder="number of guests">
+            </div>
+             <div class="inputBox">
+                <h3>arrivals</h3>
+                <input type="date">
+            </div>
+            <div class="inputBox">
+                <h3>leaving</h3>
+                <input type="date" >
+            </div>
+            <input type="submit" class="btn" value="book now">
+        </form>
+    </div>
+</section>
+<!---explore section starts-->
+<section class="explore" id="explore">
+    <h1 class="heading">
+        <span>H</span>
+        <span>o</span>
+        <span>s</span>
+        <span>t</span>
+        <span>e</span>
+        <span>l</span>
+        <span>s</span> 
+</h1>
+<div class="box-container">
+
+    <div class="box">
+     <img src="1.jpg" alt="">
+     <div class="content">
+       <h3> <i class="fas fa-map-marker-alt"></i>Vasundhara Ladies Hostel </h3>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
+       <div class="stars">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+       </div>
+    <div class="price">₹6500<span>₹8000.00</span></div>
+    <a href="#"class="btn">book now</a>
+    </div>
+    </div>
+    <div class="box">
+        <img src="2.a.jpg" alt="">
+        <div class="content">
+          <h3> <i class="fas fa-map-marker-alt"></i>Kasturba Hostel</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
+          <div class="stars">
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="far fa-star"></i>
+          </div>
+       
+       <div class="price">₹6000.00<span>₹9000.00</span></div>
+       <a href="#"class="btn">book now</a>
+       </div>
+       </div>
+    <div class="box">
+        <img src="3.jpg" alt="">
+        <div class="content">
+          <h3> <i class="fas fa-map-marker-alt"></i>Nisarga Hostel </h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
+          <div class="stars">
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="far fa-star"></i>
+           <i class="far fa-star"></i>
+          </div>
+       
+       <div class="price">₹7000.00<span>₹9200.00</span></div>
+       <a href="#"class="btn">book now</a>
+       </div>
+       </div>
+       <div class="box">
+        <img src="4 .jpg" alt="">
+        <div class="content">
+          <h3> <i class="fas fa-map-marker-alt"></i>Sanjeevini Ladies Hostel</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
+          <div class="stars">
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="far fa-star"></i>
+          </div>
+       
+       <div class="price">₹8990.00<span>₹11120.00</span></div>
+       <a href="#"class="btn">book now</a>
+       </div>
+       </div>
+       <div class="box">
+        <img src="5.jpg" alt="">
+        <div class="content">
+          <h3> <i class="fas fa-map-marker-alt"></i> Akshara Boys Hostel </h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
+          <div class="stars">
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="far fa-star"></i>
+           <i class="far fa-star"></i>
+          </div>
+       
+       <div class="price">₹6990.00<span>₹7620.00</span></div>
+       <a href="#"class="btn">book now</a>
+       </div>
+       </div>
+       <div class="box">
+        <img src="6.jpg" alt="">
+        <div class="content">
+          <h3> <i class="fas fa-map-marker-alt"></i> Taralabalu Hostel</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
+          <div class="stars">
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+          </div>
+       
+       <div class="price">₹9990.00<span>₹12220.00</span></div>
+       <a href="#"class="btn">book now</a>
+       </div>
+       </div>
+       <div class="box">
+        <img src="12.jpg" alt="">
+        <div class="content">
+          <h3> <i class="fas fa-map-marker-alt"></i> Sri Matha Hostel </h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
+          <div class="stars">
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+          </div>
+       
+       <div class="price">₹10090.00<span>₹13120.00</span></div>
+       <a href="#"class="btn">book now</a>
+       </div>
+       </div>
+       <div class="box">
+        <img src="13.jpg" alt="">
+        <div class="content">
+          <h3> <i class="fas fa-map-marker-alt"></i> BGS hostel </h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
+          <div class="stars">
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="far fa-star"></i>
+          </div>
+       
+       <div class="price">₹7990.00<span>₹9120.00</span></div>
+       <a href="#"class="btn">book now</a>
+       </div>
+       </div>
+       <div class="box">
+        <img src="15.jpg" alt="">
+        <div class="content">
+          <h3> <i class="fas fa-map-marker-alt"></i> Sri Vidya Ladies Hostel </h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
+          <div class="stars">
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="far fa-star"></i>
+          </div>
+       
+       <div class="price">₹9090.00<span>₹12120.00</span></div>
+       <a href="#"class="btn">book now</a>
+       </div>
+       </div>
+       </div>
+
+</section>
+<!---explore section ends-->
+<!-- service section starts-->
+<section class="services" id="services">
+    <h1 class="heading">
+        <span>s</span>
+        <span>e</span>
+        <span>r</span>
+        <span>v</span>
+        <span>i</span>
+        <span>c</span>
+        <span>e</span> 
+        <span>s</span>
+    </h1>
+    <div class="box-container">
+        <div class="box">
+            <i class="fas fa-hotel"></i>
+            <h3>Find Your Perfect Hostel</h3>
+            <p>Discover and book hostel of your city.Browse through a wide section of hostels,view pictures and explore the services
+                provided by each hostel
+            </p>
+        </div>
+       
+        <div class="box">
+            <i class="fas fa-bullhorn"></i>
+            <h3>safety guide</h3>
+            <p>Lorem ipsum dolor sit amet consectetur,adipisicing elit.Inventore commodi earum,
+            quis voluptate exercitationem ut minima itaque ipsum corrupti!</p>
+        </div>
+        <div class="box">
+            <i class="fa fa-dollar"></i>
+            <h3>afforable price</h3>
+            <p>Lorem ipsum dolor sit amet consectetur,adipisicing elit.Inventore commodi earum,
+            quis voluptate exercitationem ut minima itaque ipsum corrupti!</p>
+        </div>
+        <div class="box">
+            <i class="far fa-smile"></i>
+            <h3>Hassle-Free-Booking-Process</h3>
+            <p>With HostelHelper,you can easily book your preferred hostel with just a few clicks.</p>
+        </div>
+        </div>
+    
+</section>
+<!--service section ends-->
+<!--gallery section starts-->
+<section class="gallery" id="gallery">
+<h1 class ="heading">
+    <span>g</span>
+    <span>a</span>
+    <span>l</span>
+    <span>l</span>
+    <span>e</span>
+    <span>r</span>
+    <span>y</span>
+
+</h1>
+<div class="box-container">
+
+    <div class="box">
+        <img src="7.jpg" alt="">
+        <div class="content">
+            <h3>Mysore hostels</h3>
+            <p> a good environment to study</p>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+    <div class="box">
+        <img src="8.jpg" alt="">
+        <div class="content">
+            <h3>Belagavi hostels</h3>
+            <p> a good environment to study</p>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+    <div class="box">
+        <img src="9.jpg" alt="">
+        <div class="content">
+            <h3>Shimoga hostels</h3>
+            <p> a good environment to study</p>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+    <div class="box">
+        <img src="10.jpg" alt="">
+        <div class="content">
+            <h3>Davangere hostels</h3>
+            <p> a good environment to study</p>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+    <div class="box">
+        <img src="11.png" alt="">
+        <div class="content">
+            <h3>Udupi hostels</h3>
+            <p> a good environment to study</p>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+    <div class="box">
+        <img src="12.jpg" alt="">
+        <div class="content">
+            <h3>Bangalore hostels</h3>
+            <p> a good environment to study</p>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+    <div class="box">
+        <img src="13.jpg" alt="">
+        <div class="content">
+            <h3>Bijapura hostels</h3>
+            <p> a good environment to study</p>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+    <div class="box">
+        <img src="1.jpg" alt="">
+        <div class="content">
+            <h3>Kodagu hostels</h3>
+            <p> a good environment to study</p>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+    
+</div>
+</section>
+ <!--gallery section end-->
+
+    <section class="review" id="review">
+        <h1 class ="heading">
+            <span>r</span>
+            <span>e</span>
+            <span>v</span>
+            <span>i</span>
+            <span>e</span>
+            <span>w</span>
+        </h1>
+        <div class="swiper mySwiper review-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                <div class="box">
+                    <img src="20 (Custom).jpeg" alt="">
+                    <h3>Kamal</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste harum nihil incidunt ducimus assumenda nemo rem magnam provident eveniet, itaque suscipit? Error quam consequatur hic veritatis deleniti obcaecati, fugiat esse.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="21 (Custom).jpeg" alt="">
+                    <h3>Mohan</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio suscipit perspiciatis officiis tempore animi quidem iure! Nam officia repudiandae officiis magni. Voluptatibus vel veniam perferendis adipisci tempore repellendus. Fuga, ea.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="22.jpg" alt="">
+                    <h3>keerthi</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo iure fugit quae illo, iste quam sapiente optio ad ratione perferendis, necessitatibus earum voluptatibus quaerat non vitae aliquid eveniet pariatur esse.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="25 (Custom).png" alt="">
+                    <h3>Swarna</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo iure fugit quae illo, iste quam sapiente optio ad ratione perferendis, necessitatibus earum voluptatibus quaerat non vitae aliquid eveniet pariatur esse.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+
+                </div>
+
+            </div>
+        
+        </div>
+    </div>
+    </section>
+    <!--contct section starts-->
+    <section class="contact" id="contact">
+        <h1 class ="heading">
+            <span>c</span>
+            <span>o</span>
+            <span>n</span>
+            <span>t</span>
+            <span>a</span>
+            <span>c</span>
+            <span>t</span>
+
+        </h1>
+
+        <div class="row">
+            <div class="image">
+                <img src="23a.jpg" alt="">
+                
+            </div>
+            <form action="">
+                <div class="inputBox">
+                    <input type="text" placeholder="name">
+                    <input type="email" placeholder="email">
+
+                </div>
+                <div class="inputBox">
+                    <input type="number" placeholder="number">
+                    <input type="email" placeholder="subject">
+
+                </div>
+
+                <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+                <input type="submit" class="btn" value="send message">
+            </form>
+        </div>
+        </section>
+<!--contct section end-->
+<!--footer section-->
+<section class="footer">
+    <div class="box-container">
+     <div class="box">
+         <h3>about us</h3>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Assumenda quas magni 
+             pariatur est accusantism voluptas enim nemo facilissit debitis .</p>
+     </div>
+     <div class="box">
+         <h3>branch locations</h3>
+         <a href="#">shimoga</a>
+     </div>
+     <div class="box">
+         <h3>quick links</h3>
+         <a href="#">home</a>
+         <a href="#">book</a>
+         <a href="#">explore</a>
+         <a href="#">services</a>
+         <a href="#">gallery</a>
+         <a href="#">review</a>
+         <a href="#">contact</a>
+     </div>
+     <div class="box">
+         <h3>follow</h3>
+         <a href="#">facebook</a>
+         <a href="#">instagram</a>
+         <a href="#">twitter</a>
+         <a href="#">linkedin</a>
+     </div>
+  </div>
+ </section>
+
+
+ <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
